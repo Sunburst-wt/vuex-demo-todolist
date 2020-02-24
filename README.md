@@ -1,5 +1,7 @@
 # vuex-demo
 
+## 运用vuex组件通讯方式实现todolist
+
 ## Project setup
 ## 项目初始化
 ```
