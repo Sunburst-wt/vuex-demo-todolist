@@ -3,19 +3,26 @@
     <input type="text" v-model="massage">
     <button>添加</button>
     <button>修改</button>
+    <Children></Children>
+
   </div>
 </template>
 
 <script>
+import Children from './Children';
+
 export default {
-  name: 'HelloWorld',
+  name: 'Father',
+  components:{
+    Children  
+  },
   props: {
     msg: String
   },
 
   data(){
     return{
-      massage:'wangtao'
+      massage:''
     }
   }
 }

@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="vuex-demo-todolist"/>
+    <Father msg="vuex-demo-todolist"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Father from './components/Father.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Father
   }
 }
 </script>
